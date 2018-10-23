@@ -1,0 +1,104 @@
+body{
+    height:1500px;
+    font-family: sans-serif;
+}
+.navbar  {
+    display: flex;
+}
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+.About-me{
+    display: flex;
+    background-color: lightseagreen;
+    text-align: center;
+    color: white;
+}
+.About-me-presentation{
+    margin-top: 25px;
+}
+.Ma-photo{
+    height: 250px;
+    width: 38%;
+    border-radius: 50%;
+}
+.projets{
+    text-align: center;
+    background-color: rgb(153, 255, 204);
+}
+.projets-1{
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 1%;
+    margin-right: 15%;
+}
+.projets-2{
+    display: flex;
+    margin-left: 15%;
+}
+.e-kanban-photo img{
+    height: 220px;
+    width: 42%;
+}
+.maint-photo img{
+    height: 220px;
+}
+.gmao-photo img{
+    height: 230px;
+    width: 128%;
+}
+.aiesec-morocco-photo img{
+    height: 210px;
+    width: 37%;
+}
+.cv{
+    text-align: center;
+    background-color: #99ff99;
+    height: 170px;
+}
+.cv-ph{
+    margin-bottom: 30px;
+}
+.cv-link{
+    border: 1px solid #ff6600;
+    padding: 1% 1%;
+    border-radius: 5%;
+    text-decoration: none;
+    color: black;
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 13px;
+    background-color: #ccccff;
+}
+.contact-1{
+    margin-top: 0.5%;
+}   
+
+@media only screen and (max-device-width: 700px)
+{
+    .projets-2{
+        display: flex;
+        margin-bottom: 10px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gmao-photo img {
+        height: 230px;
+        width: 52%;
+    }
+    .projets-1{
+        display: flex;
+        margin-bottom: 10px;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
